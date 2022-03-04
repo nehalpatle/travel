@@ -1,0 +1,266 @@
+
+a {
+    transition: .3s;
+}
+
+a:hover,
+a:active,
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+
+
+.footer {
+    position: relative;
+    padding-top: 45px;
+    background:#1B1B1B;
+}
+
+.footer .footer-about,
+.footer .footer-contact,
+.footer .footer-links,
+.footer .footer-project {
+    position: relative;
+    margin-bottom: 45px;
+    color: #999999;
+}
+
+.footer .footer-about h3,
+.footer .footer-contact h3,
+.footer .footer-links h3,
+.footer .footer-project h3 {
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #eeeeee;
+}
+
+.footer .footer-about h3::after,
+.footer .footer-contact h3::after,
+.footer .footer-links h3::after,
+.footer .footer-project h3::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+}
+
+#ft-h3{
+    color: #da1f19;
+}
+.footer .footer-social {
+    position: relative;
+    margin-top: 20px;
+}
+
+.footer .footer-social a {
+    text-align: center;
+    color: #999999;
+    font-size: 14px;
+    border: 1px solid #999999;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    padding: 6px 0;
+    border-radius: 35px;
+}
+
+
+.footer .footer-social a:hover {
+    color: #ffffff;
+    background: #0085ff;
+    border-color: #0085ff;
+}
+.footer .footer-contact p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #999999;
+}
+
+.footer .footer-contact i {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #999999;
+}
+
+.footer .footer-contact a:last-child i {
+    margin: 0;
+}
+
+.footer .footer-contact a:hover i {
+    color: #0085ff;
+}
+.footer .footer-links a {
+    margin-bottom: 6px;
+    padding-left: 15px;
+    color: #999999;
+    display: block;
+}
+
+.footer .footer-links a:last-child {
+    margin: 0;
+}
+
+.footer .footer-links a:hover {
+    color: #da1f19;
+}
+
+.footer .footer-links a:before {
+    position: absolute;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    left: 0;
+}
+.footer .footer-project {
+    float: left;
+    font-size: 0;
+}
+
+.footer .footer-project a {
+    padding: 0 8px 8px 0;
+    display: block;
+    width: 33.33%;
+    float: left;
+}
+
+.footer .footer-project a img {
+    width: 100%;
+}
+.footer-newsletter{
+
+           margin-top: 30px;
+}
+
+.footer .footer-newsletter {
+    text-align: center;
+    color: #999999;
+    margin-bottom: 35px;
+    max-width: 700px;
+}
+
+.footer .footer-newsletter input {
+    background: rgba(256, 256, 256, .15);
+    margin-bottom: 15px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer .footer-newsletter .btn {
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #e9414a;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    height: 35px;
+    font-size: 14px;
+    border: none;
+    transition: .3s;
+}
+
+.footer .footer-newsletter .btn:hover {
+    color: #0085ff;
+    background: #ffffff;
+}
+
+.footer .footer-newsletter .btn:focus {
+    box-shadow: none;
+}
+.footer .copyright {
+    position: relative;
+    padding: 25px 0;
+    background:#1B1B1B ;
+}
+
+.footer .copyright .copy-text p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #999999;
+}
+
+.footer .copyright .copy-text p a {
+   
+    text-decoration: none;
+    color: #999999;
+}
+
+.footer .copyright .copy-text p a:hover {
+    color: #ff008c;
+}
+#footer-form{
+    border: none;
+    padding-left: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+#signup-ft{
+    border: none;
+    margin-left:-10px ;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.footer .journal {
+    font-family: PT Serif, Georgia, Times New Roman, Times, serif;
+    font-style: italic;
+    display: block;
+    margin-bottom: 22.5px
+}
+
+.footer .journal span {
+    font-family: Brandon Grotesque, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.journal{
+    margin-top: 20px;
+}
+
+.footer .journal span a,
+.footer .journal span a:hover {
+    color: #fff
+}
+.bar {
+    padding: 33.75px 0
+}
+.bar.bar--logos {
+    padding: 22.5px 0
+}
+.bar.bar--black {
+    position: relative;
+    z-index: 1;
+    background-color: #1B1B1B;
+    margin-top: 80px;
+}
+.list--logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 0;
+    border-bottom: 1px solid #666;
+    padding-bottom: 22.5px
+}
+.list--logos li img {
+    background-size: cover
+}
+.list--logos li {
+    margin: 0 11.25px
+}
